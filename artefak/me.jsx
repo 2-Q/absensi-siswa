@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from 'react-google-maps'
-import MapComponent from './MapComponent'
+import MapComponent from '../pages/absensi/MapComponent'
 
 class MapView extends Component {
   constructor(props){

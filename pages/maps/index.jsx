@@ -38,7 +38,7 @@ class Map extends Component {
   }
 }
 
-class pageMap extends Component {
+class PageMap extends Component {
 
   render() {
     return (
@@ -60,4 +60,4 @@ class pageMap extends Component {
   }
 
 }
-export default pageMap
+export default PageMap

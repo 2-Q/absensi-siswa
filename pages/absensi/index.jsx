@@ -5,7 +5,7 @@ const mapStyles = {
   width: '100%',
   height: '600px'
 };
-function hadirPage(props){
+function HadirPage(props){
     const [center, setCenters] = useState({ lat: 48.1467112, lng: 17.1385319 });
 
     useEffect(() => {
@@ -39,4 +39,4 @@ function hadirPage(props){
 
 export default GoogleApiWrapper({
     apiKey: process.env.NEXT_PUBLIC_API_KEY
-  })(hadirPage);
+  })(HadirPage);

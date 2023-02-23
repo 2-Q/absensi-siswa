@@ -5,7 +5,7 @@ const mapStyles = {
   width: '100%',
   height: '100%'
 };
-function hadirPage(props,onMarkerClick){
+function HadirPage(props,onMarkerClick){
     const [Lat, setLat] = useState(1)
     const [Long, setLong] = useState(1)
 
@@ -41,4 +41,4 @@ function hadirPage(props,onMarkerClick){
 
 export default GoogleApiWrapper({
     apiKey: process.env.NEXT_PUBLIC_API_KEY
-  })(hadirPage);
+  })(HadirPage);
